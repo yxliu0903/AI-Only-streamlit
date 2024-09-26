@@ -1,0 +1,779 @@
+{
+  "name": "%3",
+  "directed": true,
+  "strict": false,
+  "_draw_": 
+  [
+    {
+      "op": "c",
+      "grad": "none",
+      "color": "#fffffe00"
+    },
+    {
+      "op": "C",
+      "grad": "none",
+      "color": "#ffffff"
+    },
+    {
+      "op": "P",
+      "points": [[0.000,0.000],[0.000,632.700],[2660.860,632.700],[2660.860,0.000]]
+    }
+  ],
+  "bb": "0,0,2660.9,632.7",
+  "xdotversion": "1.7",
+  "_subgraph_cnt": 5,
+  "objects": [
+    {
+      "name": "%15",
+      "rank": "same",
+      "_gvid": 0,
+      "nodes": [
+        6
+      ]
+    },
+    {
+      "name": "%17",
+      "rank": "same",
+      "_gvid": 1,
+      "nodes": [
+        7
+      ]
+    },
+    {
+      "name": "%19",
+      "rank": "same",
+      "_gvid": 2,
+      "nodes": [
+        8
+      ]
+    },
+    {
+      "name": "%21",
+      "rank": "same",
+      "_gvid": 3,
+      "nodes": [
+        9
+      ]
+    },
+    {
+      "name": "%23",
+      "rank": "same",
+      "_gvid": 4,
+      "nodes": [
+        10
+      ]
+    },
+    {
+      "_gvid": 5,
+      "name": "An infinite geometric series has sum 2000.  A new series, obtained by squaring each term of the original series, has sum 16 times the sum of the original series.  The common ratio of the original series is $m\/n$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "e",
+          "rect": [1330.430,614.700,1330.360,18.000]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1330.430,611.000],
+          "align": "c",
+          "width": 2031.000,
+          "text": "An infinite geometric series has sum 2000.  A new series, obtained by squaring each term of the original series, has sum 16 times the sum of the original series.  The common ratio of the original series is $m\/n$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$."
+        }
+      ],
+      "height": "0.5",
+      "label": "An infinite geometric series has sum 2000.  A new series, obtained by squaring each term of the original series, has sum 16 times the sum of the original series.  The common ratio of the original series is $m\/n$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.",
+      "pos": "1330.4,614.7",
+      "width": "36.956"
+    },
+    {
+      "_gvid": 6,
+      "name": "(1, 1)",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "e",
+          "rect": [1330.430,532.830,166.750,26.740]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1330.430,536.630],
+          "align": "c",
+          "width": 38.000,
+          "text": "(1, 1)"
+        },
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1330.430,521.630],
+          "align": "c",
+          "width": 220.000,
+          "text": "Let's denote the first term of..."
+        }
+      ],
+      "height": "0.74639",
+      "label": "(1, 1)\nLet's denote the first term of...",
+      "pos": "1330.4,532.83",
+      "width": "4.6355"
+    },
+    {
+      "_gvid": 7,
+      "name": "(2, 1)",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "e",
+          "rect": [1330.430,428.090,177.470,26.740]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1330.430,431.890],
+          "align": "c",
+          "width": 38.000,
+          "text": "(2, 1)"
+        },
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1330.430,416.890],
+          "align": "c",
+          "width": 235.000,
+          "text": "According to the problem, a ne..."
+        }
+      ],
+      "height": "0.74639",
+      "label": "(2, 1)\nAccording to the problem, a ne...",
+      "pos": "1330.4,428.09",
+      "width": "4.9301"
+    },
+    {
+      "_gvid": 8,
+      "name": "(3, 1)",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "e",
+          "rect": [1330.430,323.350,185.940,26.740]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1330.430,327.150],
+          "align": "c",
+          "width": 38.000,
+          "text": "(3, 1)"
+        },
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1330.430,312.150],
+          "align": "c",
+          "width": 247.000,
+          "text": "We now have two key equations:..."
+        }
+      ],
+      "height": "0.74639",
+      "label": "(3, 1)\nWe now have two key equations:...",
+      "pos": "1330.4,323.35",
+      "width": "5.1658"
+    },
+    {
+      "_gvid": 9,
+      "name": "(4, 1)",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "e",
+          "rect": [1330.430,218.610,166.340,26.740]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1330.430,222.410],
+          "align": "c",
+          "width": 38.000,
+          "text": "(4, 1)"
+        },
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1330.430,207.410],
+          "align": "c",
+          "width": 219.000,
+          "text": "Substitute a = 2000 * (1 - r) ..."
+        }
+      ],
+      "height": "0.74639",
+      "label": "(4, 1)\nSubstitute a = 2000 * (1 - r) ...",
+      "pos": "1330.4,218.61",
+      "width": "4.6158"
+    },
+    {
+      "_gvid": 10,
+      "name": "(5, 1)",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "e",
+          "rect": [1330.430,113.870,171.650,26.740]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1330.430,117.670],
+          "align": "c",
+          "width": 38.000,
+          "text": "(5, 1)"
+        },
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1330.430,102.670],
+          "align": "c",
+          "width": 227.000,
+          "text": "From the equation 125 * (1 - r..."
+        }
+      ],
+      "height": "0.74639",
+      "label": "(5, 1)\nFrom the equation 125 * (1 - r...",
+      "pos": "1330.4,113.87",
+      "width": "4.773"
+    },
+    {
+      "_gvid": 11,
+      "name": "(terminate)",
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "e",
+          "rect": [1330.430,18.000,63.890,18.000]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1330.430,14.300],
+          "align": "c",
+          "width": 82.000,
+          "text": "(terminate)"
+        }
+      ],
+      "height": "0.5",
+      "label": "\\N",
+      "pos": "1330.4,18",
+      "width": "1.7693"
+    }
+  ],
+  "edges": [
+    {
+      "_gvid": 0,
+      "tail": 5,
+      "head": 6,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[1330.430,596.370],[1330.430,588.640],[1330.430,579.220],[1330.430,570.060]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[1333.930,569.930],[1330.430,559.930],[1326.930,569.930]]
+        }
+      ],
+      "label": "",
+      "pos": "e,1330.4,559.93 1330.4,596.37 1330.4,588.64 1330.4,579.22 1330.4,570.06"
+    },
+    {
+      "_gvid": 1,
+      "tail": 6,
+      "head": 7,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[1330.430,505.900],[1330.430,493.620],[1330.430,478.730],[1330.430,465.340]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[1333.930,465.010],[1330.430,455.010],[1326.930,465.010]]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1335.430,476.760],
+          "align": "c",
+          "width": 10.000,
+          "text": "0"
+        }
+      ],
+      "label": "0",
+      "lp": "1335.4,480.46",
+      "pos": "e,1330.4,455.01 1330.4,505.9 1330.4,493.62 1330.4,478.73 1330.4,465.34"
+    },
+    {
+      "_gvid": 2,
+      "tail": 7,
+      "head": 8,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[1330.430,401.160],[1330.430,388.880],[1330.430,373.990],[1330.430,360.600]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[1333.930,360.270],[1330.430,350.270],[1326.930,360.270]]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1335.430,372.020],
+          "align": "c",
+          "width": 10.000,
+          "text": "1"
+        }
+      ],
+      "label": "1",
+      "lp": "1335.4,375.72",
+      "pos": "e,1330.4,350.27 1330.4,401.16 1330.4,388.88 1330.4,373.99 1330.4,360.6"
+    },
+    {
+      "_gvid": 3,
+      "tail": 8,
+      "head": 9,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[1330.430,296.420],[1330.430,284.140],[1330.430,269.250],[1330.430,255.860]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[1333.930,255.530],[1330.430,245.530],[1326.930,255.530]]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1335.430,267.280],
+          "align": "c",
+          "width": 10.000,
+          "text": "2"
+        }
+      ],
+      "label": "2",
+      "lp": "1335.4,270.98",
+      "pos": "e,1330.4,245.53 1330.4,296.42 1330.4,284.14 1330.4,269.25 1330.4,255.86"
+    },
+    {
+      "_gvid": 4,
+      "tail": 9,
+      "head": 10,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[1330.430,191.680],[1330.430,179.400],[1330.430,164.510],[1330.430,151.120]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[1333.930,150.790],[1330.430,140.790],[1326.930,150.790]]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1335.430,162.540],
+          "align": "c",
+          "width": 10.000,
+          "text": "3"
+        }
+      ],
+      "label": "3",
+      "lp": "1335.4,166.24",
+      "pos": "e,1330.4,140.79 1330.4,191.68 1330.4,179.4 1330.4,164.51 1330.4,151.12"
+    },
+    {
+      "_gvid": 5,
+      "tail": 10,
+      "head": 11,
+      "_draw_": 
+      [
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[1330.430,86.970],[1330.430,74.340],[1330.430,59.140],[1330.430,46.320]]
+        }
+      ],
+      "_hdraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "P",
+          "points": [[1333.930,46.220],[1330.430,36.220],[1326.930,46.220]]
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [1335.430,57.800],
+          "align": "c",
+          "width": 10.000,
+          "text": "4"
+        }
+      ],
+      "label": "4",
+      "lp": "1335.4,61.5",
+      "pos": "e,1330.4,36.221 1330.4,86.971 1330.4,74.337 1330.4,59.139 1330.4,46.32"
+    }
+  ]
+}
