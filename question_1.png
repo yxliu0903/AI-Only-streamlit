@@ -1,0 +1,38 @@
+// Let $P(x)$ be a polynomial such that
+\[P(P(x)) + P(x) = 6x\]for all real numbers $x.$  Find the sum of all possible values of $P(10).$
+digraph {
+	Q [label="Question: Let $P(x)$ be a polynomial such that
+\[P(P(x)) + P(x) = 6x\]for all real numbers $x.$  Find the sum of all possible values of $P(10).$" shape=box]
+	Step1_0 [label="1: Let \( P(x) = ax + b \) be a linear polynomial. Substitute \( P(x) \) into the given equation \( P(P(x)) + P(x) = 6x \)."]
+	Step2_0 [label="2: Compute \( P(P(x)) \) by substituting \( P(x) \) into itself. Given \( P(x) = ax + b \), we get \( P(P(x)) = P(ax + b) = a(ax + b) + b = a^2x + ab + b \)."]
+	Step3_0 [label="3: Substitute \( P(x) = ax + b \) and \( P(P(x)) = a^2x + ab + b \) into the equation \( P(P(x)) + P(x) = 6x \). This gives \( a^2x + ab + b + ax + b = 6x \)."]
+	Step4_0 [label="4: Combine like terms in the equation \( a^2x + ab + b + ax + b = 6x \). This yields \( a^2x + ax + ab + 2b = 6x \)."]
+	Step5_0 [label="5: Equate the coefficients of \( x \) and the constant terms on both sides of \( a^2x + ax + ab + 2b = 6x \). This gives the system of equations: 
+1) \( a^2 + a = 6 \)
+2) \( ab + 2b = 0 \)."]
+	Step6_0 [label="6: Solve the equation \( ab + 2b = 0 \). Factor out \( b \) to obtain \( b(a + 2) = 0 \). Thus, \( b = 0 \) or \( a = -2 \)."]
+	Step7_0 [label="7: First, consider the case \( b = 0 \). Substitute \( b = 0 \) into the equation \( a^2 + a = 6 \), giving \( a^2 + a - 6 = 0 \). Solve this quadratic equation."]
+	Step8_0 [label="8: Factorize the quadratic equation \( a^2 + a - 6 = 0 \) to get \( (a + 3)(a - 2) = 0 \). This gives the solutions \( a = -3 \) or \( a = 2 \)."]
+	Step9_0 [label="9: Now consider the other case \( a = -2 \). Substitute \( a = -2 \) into the equation \( a^2 + a = 6 \), giving \( (-2)^2 - 2 = 6 \), and check if it satisfies the equation \( P(P(x)) + P(x) = 6x \)."]
+	Step10_0 [label="10: When \( a = -2 \): Check \( P(x) = -2x + b \). Then \( P(P(x)) = P(-2x + b) = -2(-2x + b) + b = 4x - 2b + b = 4x - b \). Substitute into \( P(P(x)) + P(x) = 6x \) to verify."]
+	Step11_0 [label="11: Substitute \( P(x) = -2x + b \) and \( P(P(x)) = 4x - b \) into the equation \( P(P(x)) + P(x) = 6x \). This gives \( 4x - b + (-2x + b) = 6x \). Simplify the equation."]
+	Step12_0 [label="12: Simplify \( 4x - b - 2x + b = 6x \). This reduces to \( 2x = 6x \), which is only true if \( x = 0 \). Therefore, the case \( a = -2 \) does not provide a valid solution."]
+	Step13_0 [label="13: Summarize the valid solutions for \( a \) and \( b \). From \( a = 2, b = 0 \) and \( a = -3, b = 0 \), we have valid linear polynomials \( P(x) = 2x \) and \( P(x) = -3x \). Evaluate these polynomials at \( x = 10 \)."]
+	Step14_0 [label="14: For \( P(x) = 2x \), \( P(10) = 2 \cdot 10 = 20 \). For \( P(x) = -3x \), \( P(10) = -3 \cdot 10 = -30 \). The sum of all possible values of \( P(10) \) is \( 20 + (-30) = -10 \). Therefore, the answer is \(-10\)."]
+	Q -> Step1_0
+	Q -> Step2_0
+	Q -> Step3_0
+	Q -> Step4_0
+	Q -> Step5_0
+	Q -> Step6_0
+	Q -> Step7_0
+	Q -> Step8_0
+	Q -> Step9_0
+	Q -> Step10_0
+	Q -> Step11_0
+	Q -> Step12_0
+	Q -> Step13_0
+	Q -> Step14_0
+	end [label=End shape=ellipse]
+	Step14_0 -> end
+}
