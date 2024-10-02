@@ -6,7 +6,7 @@ import json
 st.set_page_config(layout="wide")
 
 # 从 JSON 文件中读取数据
-with open('/nas/shared/GAIR/yyliu/Thought_plus/teacher_only/result_gpt4o-v9_with-gold-answer_all-steps.jsonl', 'r', encoding='utf-8') as f:
+with open('data/result_gpt4o-v9_with-gold-answer_all-steps.jsonl', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # Sidebar for question selection
