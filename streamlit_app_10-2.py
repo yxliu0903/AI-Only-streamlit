@@ -6,7 +6,7 @@ import json
 st.set_page_config(layout="wide")
 
 # 从 JSON 文件中读取数据
-with open('data/result_gpt4o-v9_with-gold-answer_all-steps.jsonl', 'r', encoding='utf-8') as f:
+with open('data/result_qwen2.5-72b-instruct-v9_with-gold-answer_all-steps_batch.jsonl', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # Sidebar for question selection
@@ -77,3 +77,13 @@ dots_data = generate_graph(data[selected_image_index])
 # 页面布局展示图
 st.header("Step-by-Step Graph")
 st.graphviz_chart(dots_data)
+
+# 展示步骤列表
+st.header("All Steps:")
+selected_question = data[selected_image_index]
+steps = selected_question['steps']
+
+for step in steps:
+    st.subheader(f"Step {step['number']}:")
+    st.write(f"Type: {step['type']}")
+    st.write(f"Content: {step['content']}")
